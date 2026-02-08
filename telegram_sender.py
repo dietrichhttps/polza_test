@@ -19,7 +19,7 @@ class TelegramBot:
         self.chat_id = chat_id
         self.api_url = f"https://api.telegram.org/bot{bot_token}"
     
-    def send_message(self, text: str, parse_mode: str = 'Markdown') -> bool:
+    def send_message(self, text: str, parse_mode: Optional[str] = None) -> bool:
         """Отправляет сообщение в Telegram"""
         url = f"{self.api_url}/sendMessage"
         

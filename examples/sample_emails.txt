@@ -1,0 +1,6 @@
+test@example.com
+admin@gmail.com
+user@yandex.ru
+invalid@nonexistent.domain
+support@github.com
+info@nonexistent12345678.org

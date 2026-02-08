@@ -141,7 +141,7 @@ python telegram_sender.py examples/sample_message.txt
 ## Зависимости
 
 ```
-dnspython==2.6.2      # DNS запросы для MX-записей
+dnspython>=2.6.2      # DNS запросы для MX-записей
 requests==2.31.0      # HTTP запросы для Telegram API
 python-dotenv==1.0.0  # Управление переменными окружения
 ```
